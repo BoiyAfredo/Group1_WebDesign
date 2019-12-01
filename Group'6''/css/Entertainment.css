@@ -1,0 +1,114 @@
+html,body 
+/*margin and padding will become like default mode*/
+{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    
+    font: 76% arial,sans-serif; /*this is setting for font in the body, if arial can't use so the sans-serif will be use for this html*/
+    text-align:center; /*this will make everyhing in the body */
+}
+
+p{
+    margin:0 10px 10px; /*margin for every tag <p>*/
+}
+
+a{
+    padding:5px; /*give padding 5 px for every tag <a>*/
+    text-decoration:none; /*this make your blue color text from tag <a> disappear*/
+    color:#000000;/*black color*/
+
+}
+
+div#header{
+    background-color:#F3F2ED; /*give color background white for #header*/
+}
+
+div#header h1{ /*css for #header h1 */
+    height:80px; /*will make h1 have height 80px*/
+    line-height:80px; /*Distance for every new paragraph*/
+    margin:0;/* margin will be zero in this id*/
+    padding-left:10px; /*give distance bit to right*/
+
+}
+
+div#container{ /* text align in this container id will be left*/
+    text-align:left
+
+}
+
+div#content p{
+    line-height:1.4 /*every distance for each paragraph will be 1.4*/
+}
+
+div#navigation{
+    background:#F6F0E0;/*this one give white color for your background*/
+}
+
+div#navigation ul{
+    margin:15px 0;/*margin will be 15 px*/
+    padding:0;/*give 0 padding in every navigation*/
+    list-style-type:none;/*this one make your list style */
+
+}
+
+div#navigation li{
+    margin-bottom:5px;/*will make bottom bit crowded into the top*/
+
+}
+
+div#extra{
+    background:#CCC8B3;/**/
+
+}
+
+div#footer{
+    background:#BFBD93;/**/
+
+}
+
+div#footer p{
+    margin:0;/*your margin will be 0*/
+    padding:5px 10px/*padding in the footer top will be 5px and for padding bottim will be 10px*/
+
+}
+
+div#container{
+    width:700px;/*container id widht will be 700px*/
+    margin:0 auto/*margin will be 0*/
+
+}
+
+div#wrapper{
+    float:left;/*wrapper postion will be left side*/
+    width:100%;/*widht 100% according to layer*/
+
+}
+
+div#content{
+    margin-right: 300px;/*this is make content bit go to the right more*/
+
+}
+
+div#navigation{
+    float:left;/*will make navigation position go to the left*/
+    width:150px;/*widht for div navigation*/
+    margin-left:-300px/*will make paragraph postion into the right, because it's min pixel*/
+
+}
+
+div#extra{
+    float:left;/*will make navigation position go to the left*/
+    width:150px;/*widht for div extra*/
+    margin-left:-150px/*will make paragraph postion into the right*/
+
+}
+
+div#footer{
+    clear:left;/*it will be according to how many div in the top this footer id*/
+    width:100%/*widht for div footer*/
+
+}
