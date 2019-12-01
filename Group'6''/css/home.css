@@ -4,13 +4,13 @@ body /*this is a part for all elements of the body*/
 	margin:0;
 	font-family: 'Open Sans', sans-serif;
 }
- 
+
 hr /*this is a part to give a long line in the header after h1(title on the home page)*/
 {
 	border:0;
 	background:#dedede;
 	height:1px;
-}		
+}
 
 
 header/*section to give the title on the main page (on the home page)*/
@@ -18,23 +18,23 @@ header/*section to give the title on the main page (on the home page)*/
 	text-align: center;
 	color: #232323;
 }
- 
+
 header .judul/*section to provide the size of the h1 element in the header*/
 {
 	font-size: 17pt;
 }
- 
- 
+
+
 .wrap /*the part that is on the initial display (home) to determine the size of the width and margin(auto) for the home page*/
 {
 	width: 950px;
 	margin:25px auto;
 }
- 
+
 nav.menu ul/*section to adjust the size of the position of the menu bar*/
 {
 	overflow:hidden;
-	color: white;
+	color: red;
 	list-style: none;
 	float:left;
 	padding:0;
@@ -45,37 +45,37 @@ nav.menu ul/*section to adjust the size of the position of the menu bar*/
 	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
 	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
 }
- 
+
 nav.menu ul li /*section to adjust the location of the menu bar position*/
 {
 	margin:0;
 	float:left;
 }
- 
+
 nav.menu ul a /*section to set the size of the writing on the menu bar*/
 {
 	padding:25px;
 	display:block;
 	font-weight:600;
 	font-size: 16px;
-	color:#fff;
+	color:blue;
 	text-transform: uppercase;
 	transition: all 0.5s ease;
 	text-decoration: none;
 }
- 
+
 nav.menu ul a:hover /*section to underline the text decoration and at the same time give a background color on the menu bar*/
 {
 	text-decoration: underline;
 	background:#16a085;
 }
- 
+
 .sidebar /*to adjust the position and size of additional content*/
 {
 	float:right;
 	width:275px;
 }
- 
+
 .sidebar .widget /*section to provide background color and other additions in additional content (in the sidebar)*/
 {
 	padding:25px;
@@ -84,12 +84,12 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	border-bottom: 2px solid #fff;
 	transition: all 0.5s ease;
 }
- 
+
 .sidebar .widget /*section to give color to the title in additional content (sidebar)*/
 {
 	border-bottom: 2px solid #3498db;
 }
- 
+
 .sidebar .widget h2 /*section to set the size of the text in the title that is in additional content (sidebar) in the H2 element*/
 {
 	padding:0;
@@ -99,18 +99,18 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	font-weight:800;
 	text-transform: uppercase;
 }
- 
+
 .sidebar .widget p /*section to set the size of the writing that is in the article that is in the additional content section (sidebar) element p*/
 {
 	font-size: 14px;
 }
- 
- 
+
+
 .blog /*Adjust the position of the blog*/
 {
 	float:left;
 }
- 
+
 .conteudo /*Set background colors,size and more in the content section*/
 {
 	width:600px;
@@ -122,14 +122,14 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
 	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
 }
- 
+
 .conteudo img /*to adjust the size of the image in the content section*/
 {
 	min-width: 650px;
 	margin:0 0 25px -25px;
 	max-width: 650px;
 }
- 
+
 .conteudo h1 /*to set the title of the article in the content*/
 {
 	padding:0;
@@ -138,14 +138,14 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	color: #666;
 	font-family: Georgia;
 }
- 
+
 .conteudo p /*to set the limit of articles in the content*/
 {
 	margin: 0;
 }
- 
 
- 
+
+
 .post-info /*to set the location of the existing date in the content*/
 {
 	float: right;
@@ -153,4 +153,3 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	margin: -10px 0 15px;
 	text-transform: uppercase;
 }
- 
