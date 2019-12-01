@@ -87,7 +87,8 @@ div#container
 div#content
 {
     float:left; /* will make navigation position go to the left */
-    width:500px /* content id width will be 500px */
+    width:500px; /* content id width will be 500px */
+    background-color: #ffffe6;/*this one give #ffffe6 color for your content bar*/    
 }
 
 div#navigation
