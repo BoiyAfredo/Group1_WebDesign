@@ -1,0 +1,111 @@
+html,body
+{
+    margin:0; /* margin will become like default mode */
+    padding:0 /* padding will become like default mode */
+}
+
+body
+{
+    font: 76% arial,sans-serif; /* this is setting for font in the body, if arial can't use so the sans-serif will be use for this html */
+    text-align:center /* this will make everyhing in the body */
+}
+
+p
+{
+    margin:0 10px 10px /* margin for every tag <p> */
+}
+
+a
+{
+    padding:5px; /* give padding 5 px for every tag <a> */
+    text-decoration:none; /* this make your blue color text from tag <a> disappear */
+    color:#000000; /* black color */
+}
+
+div#header
+{
+    background-color:#F3F2ED; /* give color for the background */
+}
+
+div#header h1 /* css for #header h1 */
+{
+    height:80px; /* will make h1 have height 80px */
+    line-height:80px; /* distance for every new paragraph */
+    margin:0; /* margin will be zero in this id */
+    padding-left:10px; /* give distance bit to right */
+}
+
+div#container
+{
+    text-align:left /* text align in container id will be left */
+}
+
+div#content p
+{
+    line-height:1.4 /* every distance for each paragraph will be 1.4 */
+}
+
+div#navigation
+{
+    background:#F6F0E0; /* give color for the background */
+}
+
+div#navigation ul
+{
+    margin:15px 0; /* margin will be 15 px */
+    padding:0; /* give 0 padding in every navigation */
+    list-style-type:none; /* make the list style */
+}
+
+div#navigation li
+{
+    margin-bottom:5px; /* will make bottom bit crowded into the top */
+}
+
+div#extra
+{
+    background:#CCC8B3; /* give color for the background */
+}
+
+div#footer
+{
+    background:#BFBD93; /* give color for the background */
+}
+
+div#footer p
+{
+    margin:0; /* your margin will be 0 */
+    padding:5px 10px /* padding in the footer top will be 5px and for padding bottim will be 10px */
+}
+
+div#container
+{
+    width:700px; /* container id width will be 700px */
+    margin:0 auto /* margin will be 0 */
+}
+
+div#content
+{
+    float:left; /* will make navigation position go to the left */
+    width:500px; /* content id width will be 500px */
+    background-color: #ffffe6;/*this one give #ffffe6 color for your content bar*/    
+}
+
+div#navigation
+{
+    float:right; /* will make navigation position go to the right */
+    width:200px /* navigation id width will be 200px */
+}
+
+div#extra
+{
+    float:right; /* will make navigation position go to the right */
+    clear:right; /* it will be according to how many div in the top this extra id */
+    width:200px /* extra id width will be 200px */
+}
+
+div#footer
+{
+    clear:both; /* it will be according to how many div in the top this footer id */
+    width:100% /* footer id width will be 100% according to layer */
+}
