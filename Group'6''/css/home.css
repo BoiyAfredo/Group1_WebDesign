@@ -15,13 +15,18 @@ hr /*this is a part to give a long line in the header after h1(title on the home
 
 header/*section to give the title on the main page (on the home page)*/
 {
-	text-align: center;
+	/* I want to move the header to the left side of the page.
+    text-align: center;*/
+    text-align: left;
 	color: #232323;
 }
 
 header .judul/*section to provide the size of the h1 element in the header*/
 {
-	font-size: 17pt;
+	/*
+    font-size: 17pt;
+    */
+    font-size: 50px;
 }
 
 
@@ -31,43 +36,48 @@ header .judul/*section to provide the size of the h1 element in the header*/
 	margin:25px auto;
 }
 
-nav.menu ul/*section to adjust the size of the position of the menu bar*/
+div.menu ul/*section to adjust the size of the position of the menu bar*/
 {
 	overflow:hidden;
 	color: red;
 	list-style: none;
 	float:left;
 	padding:0;
-	width: 650px;
+	/* Change the size of the menu bar
+    width: 650px;*/
+    width: 100%;
 	margin:0 0 0;
-	background: #1awbc9c;
+	/*background: ;*/
+    background: white;
 	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
 	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
 	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
 }
 
-nav.menu ul li /*section to adjust the location of the menu bar position*/
+div.menu ul li /*section to adjust the location of the menu bar position*/
 {
 	margin:0;
 	float:left;
 }
 
-nav.menu ul a /*section to set the size of the writing on the menu bar*/
+div.menu ul a /*section to set the size of the writing on the menu bar*/
 {
 	padding:25px;
 	display:block;
 	font-weight:600;
 	font-size: 16px;
-	color:blue;
+	/*color:blue;*/
+    color: skyblue;
 	text-transform: uppercase;
 	transition: all 0.5s ease;
 	text-decoration: none;
 }
 
-nav.menu ul a:hover /*section to underline the text decoration and at the same time give a background color on the menu bar*/
+div.menu ul a:hover /*section to underline the text decoration and at the same time give a background color on the menu bar*/
 {
 	text-decoration: underline;
-	background:#16a085;
+	/*background:#16a085;*/
+    background: #ff0000;
 }
 
 .sidebar /*to adjust the position and size of additional content*/
@@ -105,6 +115,24 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	font-size: 14px;
 }
 
+/* i add an a href link for widget*/
+
+.sidebar .widget ul
+{
+    color: #3385ff;
+    list-style: none;
+    text-decoration:none;
+}
+
+.sidebar .widget ul li a
+{
+    color: #3385ff;
+}
+
+.sidebar .widget ul li a:hover
+{
+    color: darkred;
+}
 
 .blog /*Adjust the position of the blog*/
 {
