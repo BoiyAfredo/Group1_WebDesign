@@ -10,7 +10,8 @@ body
 }
 p
 {
-    margin:0 10px 10px /* margin for every tag <p> */
+   /* margin:0 10px 10px /* margin for every tag <p> */*/ /*Modification*/
+    margin: 3px 5px 5px
 }
 a
 {
@@ -18,6 +19,10 @@ a
     text-decoration:none; /* this make your blue color text from tag <a> disappear */
     color:#000000; /* black color */
 }
+a:hover {
+	text-decoration: underline;   /*New*/
+	color: #4F5D7F;
+       }
 div#header
 {
     background-color:#F3F2ED;
@@ -78,7 +83,8 @@ div#container
 div#content
 {
     float:left; /* will make navigation position go to the left */
-    width:500px /* content id width will be 500px */
+    width:500px; /* content id width will be 500px */
+    background-color: #ffffe6;/*this one give #ffffe6 color for your content bar*/
 }
 
 div#navigation
