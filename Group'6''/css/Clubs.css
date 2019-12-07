@@ -10,7 +10,8 @@ body
 }
 p
 {
-    margin:0 10px 10px /* margin for every tag <p> */
+   /* margin:0 10px 10px /* margin for every tag <p> */*/ /*Modification*/
+    margin: 3px 5px 5px
 }
 a
 {
