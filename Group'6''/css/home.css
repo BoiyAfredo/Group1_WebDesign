@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
-@media (min-width: 400px;) and (max-width: 600px;) {
-		body {
-			color: green;
-			background-color: fuchsia;
-		}
-
 		.wrap /*the part that is on the initial display (home) to determine the size of the width and margin(auto) for the home page*/
 		{
 			width: 100%;
@@ -15,38 +9,35 @@
 		nav.menu ul/*section to adjust the size of the position of the menu bar*/
 
 		.mainmenubtn {
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
-}
+	    background-color: red;
+	    color: white;
+	    border: none;
+	    cursor: pointer;
+	    padding:20px;
+	    margin-top:20px;
+			display: none;
+	}
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
+			display: none;
+	}
+	.dropdown-child {
+	    display: none;
+	    background-color: black;
+	    min-width: 200px;
+	}
+	.dropdown-child a {
+	    color: white;
+	    padding: 20px;
+	    text-decoration: none;
 
-.mainmenubtn:hover {
-    background-color: red;
-    }
+	}
+	.dropdown:hover .dropdown-child {
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-child {
-    display: none;
-    background-color: black;
-    min-width: 200px;
-}
-.dropdown-child a {
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown:hover .dropdown-child {
-    display: block;
-}
-		}
-}
+			display: none;
+	}
+
 
 body /*this is a part for all elements of the body*/
 {
