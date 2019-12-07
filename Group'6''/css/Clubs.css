@@ -5,7 +5,7 @@ html,body
 }
 body
 {
-    font: 76% arial,sans-serif; /* this is setting for font in the body, if arial can't use so the sans-serif will be use for this html */
+    font: 80% arial,sans-serif; /* this is setting for font in the body, if arial can't use so the sans-serif will be use for this html */
     text-align:center /* this will make everyhing in the body */
 }
 p
@@ -19,6 +19,10 @@ a
     text-decoration:none; /* this make your blue color text from tag <a> disappear */
     color:#000000; /* black color */
 }
+a:hover {
+	text-decoration: underline;   /*New*/
+	color: #4F5D7F;
+       }
 div#header
 {
     background-color:#F3F2ED;
