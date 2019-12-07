@@ -128,7 +128,7 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 .sidebar .widget /*section to provide background color and other additions in additional content (in the sidebar)*/
 {
 	padding:4%;
-	margin:0%;
+	margin-left: 20%;
 	background:#fff;
 	border-bottom: 2% solid #fff;
 	transition: all 0.5s ease;
