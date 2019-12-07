@@ -1,3 +1,7 @@
+@media  {
+
+}
+
 body /*this is a part for all elements of the body*/
 {
 	background: #eee;
@@ -38,12 +42,12 @@ nav.menu ul/*section to adjust the size of the position of the menu bar*/
 	list-style: none;
 	float:left;
 	padding:0;
-	width: 650px;
+	width: 60%;
 	margin:0 0 0;
 	background: #1awbc9c;
-	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
-	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
-	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-webkit-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
+	-moz-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
+	box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
 }
 
 nav.menu ul li /*section to adjust the location of the menu bar position*/
@@ -78,31 +82,31 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 
 .sidebar .widget /*section to provide background color and other additions in additional content (in the sidebar)*/
 {
-	padding:25px;
-	margin:0 0 25px;
+	padding:4%;
+	margin:0 0 4%;
 	background:#fff;
-	border-bottom: 2px solid #fff;
+	border-bottom: 2% solid #fff;
 	transition: all 0.5s ease;
 }
 
 .sidebar .widget /*section to give color to the title in additional content (sidebar)*/
 {
-	border-bottom: 2px solid #3498db;
+	border-bottom: 2% solid #3498db;
 }
 
 .sidebar .widget h2 /*section to set the size of the text in the title that is in additional content (sidebar) in the H2 element*/
 {
 	padding:0;
-	margin:0 0 15px;
+	margin:0 0 10%;
 	color:#3498db;
-	font-size: 18px;
+	font-size: 80%;
 	font-weight:800;
 	text-transform: uppercase;
 }
 
 .sidebar .widget p /*section to set the size of the writing that is in the article that is in the additional content section (sidebar) element p*/
 {
-	font-size: 14px;
+	font-size: 80%;
 }
 
 
@@ -125,15 +129,15 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 
 .conteudo img /*to adjust the size of the image in the content section*/
 {
-	min-width: 650px;
+	min-width: 20%;
 	margin:0 0 25px -25px;
-	max-width: 650px;
+	max-width: 100%;
 }
 
 .conteudo h1 /*to set the title of the article in the content*/
 {
 	padding:0;
-	margin:0 0 15px;
+	margin: 5%;
 	font-weight: normal;
 	color: #666;
 	font-family: Georgia;
