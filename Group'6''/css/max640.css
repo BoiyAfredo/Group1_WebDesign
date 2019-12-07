@@ -1,27 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
-		/*.wrap /*the part that is on the initial display (home) to determine the size of the width and margin(auto) for the home page*/
-		/*{
+
+
+		.wrap /*the part that is on the initial display (home) to determine the size of the width and margin(auto) for the home page*/
+		{
 			width: 100%;
 			margin:1em auto;
-		}/*
+		}
 
-		/*nav.menu ul section to adjust the size of the position of the menu bar*/
-
-		.mainmenubtn {
+	.mainmenubtn {
 	    background-color: red;
 	    color: white;
 	    border: none;
 	    cursor: pointer;
 	    padding:20px;
 	    margin-top:20px;
-			display: none;
 	}
 	.dropdown {
 	    position: relative;
 	    display: inline-block;
-			display: none;
 	}
+
 	.dropdown-child {
 	    display: none;
 	    background-color: black;
@@ -31,11 +30,10 @@
 	    color: white;
 	    padding: 20px;
 	    text-decoration: none;
-
+	    display: block;
 	}
 	.dropdown:hover .dropdown-child {
-
-			display: none;
+	    display: block;
 	}
 
 
@@ -44,11 +42,6 @@ body /*this is a part for all elements of the body*/
 	background: #eee;
 	margin: 0em;
 	font-family: 'Open Sans', sans-serif;
-}
-
-hr /*this is a part to give a long line in the header after h1(title on the home page)*/
-{
-
 }
 
 
@@ -80,7 +73,8 @@ header .judul/*section to provide the size of the h1 element in the header*/
 
 nav.menu ul/*section to adjust the size of the position of the menu bar*/
 {
-	overflow:hidden;
+  display:none;
+  overflow:hidden;
 	color: red;
 	list-style: none;
 	float:left;
@@ -90,19 +84,25 @@ nav.menu ul/*section to adjust the size of the position of the menu bar*/
 	background: #1awbc9c;
 	-webkit-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
 	-moz-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
-	box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
+	box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);*/
 }
 
 nav.menu ul li /*section to adjust the location of the menu bar position*/
 {
 	margin:0;
 	float:left;
+  display: none;
+}
+
+nav.menu ul
+{
+  display: none;
 }
 
 nav.menu ul a /*section to set the size of the writing on the menu bar*/
 {
 	padding:2em;
-	display:inline-block;
+	display: none;
 	font-weight:40em;
 	font-size: 90%;
 	color:fuchsia;
@@ -115,9 +115,10 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 {
 	text-decoration: underline;
 	background:#16a085;
+  display: none;
 }
 
-.sidebar /*to adjust the position and size of additional content*/
+.sidebar to adjust the position and size of additional content
 {
 	position: absolute;
 	left: 80%;
