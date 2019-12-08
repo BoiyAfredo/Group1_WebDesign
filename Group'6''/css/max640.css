@@ -44,8 +44,13 @@
 body /*this is a part for all elements of the body*/
 {
 	background: #eee;
+	background-image: url("AnimeCity.jpg");
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 	margin: 0em;
 	font-family: 'Open Sans', sans-serif;
+
 }
 
 

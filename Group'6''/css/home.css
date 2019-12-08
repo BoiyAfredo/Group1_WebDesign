@@ -42,6 +42,10 @@
 body /*this is a part for all elements of the body*/
 {
 	background: #eee;
+	background-image: url("BestCity.jpg");
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 	margin: 0em;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -108,9 +112,10 @@ nav.menu ul a /*section to set the size of the writing on the menu bar*/
 {
 	padding:2em;
 	display:inline-block;
-	font-weight:40em;
+	font-weight:bolder;
 	font-size: 90%;
-	color:fuchsia;
+	font-family: 'Pacifico', cursive;
+	color: yellow;
 	text-transform: uppercase;
 	transition: all 0.5s ease;
 	text-decoration: none;
