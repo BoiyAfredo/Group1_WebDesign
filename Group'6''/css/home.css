@@ -62,6 +62,9 @@ header/*section to give the title on the main page (on the home page)*/
 	padding: 0%;
 	text-align: center;
 	color: white;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	 -webkit-box-shadow: inset 0 0 10px #000000;
+	 box-shadow:         inset 0 0 10px #000000;
 	background: rgb(38,61,161);
 	background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(171,13,75,1) 78%, rgba(0,212,255,1) 100%);
 
@@ -94,18 +97,22 @@ nav.menu ul/*section to adjust the size of the position of the menu bar*/
 	list-style: none;
 	float:left;
 	padding: 0%;
-	width: 80%;
+	width: 39.37%;
 	margin:0%;
 	background: #1awbc9c;
-	-webkit-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
-	-moz-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
-	box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+	border-radius: 5%;
+	background: rgb(38,61,161);
+	background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(171,13,75,1) 78%, rgba(0,212,255,1) 100%);
 }
 
 nav.menu ul li /*section to adjust the location of the menu bar position*/
 {
 	margin:0;
 	float:left;
+
 }
 
 nav.menu ul a /*section to set the size of the writing on the menu bar*/
@@ -115,7 +122,7 @@ nav.menu ul a /*section to set the size of the writing on the menu bar*/
 	font-weight:bolder;
 	font-size: 90%;
 	font-family: 'Pacifico', cursive;
-	color: yellow;
+	color: 	yellow;
 	text-transform: uppercase;
 	transition: all 0.5s ease;
 	text-decoration: none;
@@ -178,9 +185,9 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	margin:4% auto;
 	background: #fff;
 	border:10% solid #dedede;
-	-webkit-box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
-	-moz-box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
-	box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	 -webkit-box-shadow: inset 0 0 10px #000000;
+	 box-shadow:         inset 0 0 10px #000000;
 }
 
 .conteudo img /*to adjust the size of the image in the content section*/
@@ -221,6 +228,9 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	color: white;
 	position: relative;
 	top: 40em;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	 -webkit-box-shadow: inset 0 0 10px #000000;
+	 box-shadow:         inset 0 0 10px #000000;
 	background: rgb(38,61,161);
 	background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(171,13,75,1) 78%, rgba(0,212,255,1) 100%);
 }
