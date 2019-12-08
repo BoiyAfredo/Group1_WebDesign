@@ -8,8 +8,11 @@ html,body
 
 body{
     
+    /* i add background picture */
+    background: url(piccity.jpg);
     font: 76% arial,sans-serif; /*this is setting for font in the body, if arial can't use so the sans-serif will be use for this html*/
     text-align:center; /*this will make everyhing in the body */
+    color: grey; /* this will make every text in the same color*/
 }
 
 p{
@@ -32,7 +35,7 @@ div#header h1{ /*css for #header h1 */
     line-height:80px; /*Distance for every new paragraph*/
     margin:0;/* margin will be zero in this id*/
     padding-left:10px; /*give distance bit to right*/
-
+    background-color: #00001a;
 }
 
 div#container{ /* text align in this container id will be left*/
@@ -41,7 +44,7 @@ div#container{ /* text align in this container id will be left*/
 }
 
 div#content p{
-    line-height:1.4 /*every distance for each paragraph will be 1.4*/
+    line-height:1.4/*every distance for each paragraph will be 1.4*/
 }
 
 div#navigation{
@@ -66,31 +69,44 @@ div#extra{
 }
 
 div#footer{
-    background:#BFBD93;/**/
-
+    /*background:#BFBD93 */
+    background: #00001a;/**/
+    /*i add padding for the footer*/
+    padding:20px 20px 10px;
 }
+
 
 div#footer p{
     margin:0;/*your margin will be 0*/
+    /* i add color for the footer text*/
+    color:white;
     padding:5px 10px/*padding in the footer top will be 5px and for padding bottim will be 10px*/
 
 }
 
 div#container{
     width:700px;/*container id widht will be 700px*/
-    margin:0 auto/*margin will be 0*/
+    margin:0 auto;/*margin will be 0*/
 
 }
 
 div#wrapper{
     float:left;/*wrapper postion will be left side*/
     width:100%;/*widht 100% according to layer*/
-
+    
 }
 
 div#content{
-    margin-right: 300px;/*this is make content bit go to the right more*/
+    /*margin-right: 300px;*/
+    margin: auto;/*this is make content bit go to the right more*/
+    background: #cfcdf0;
+    padding: 30px;
 
+}
+
+/* adding h2 for title*/
+div#content h2{
+    text-align: center;
 }
 
 div#navigation{
@@ -109,6 +125,7 @@ div#extra{
 
 div#footer{
     clear:left;/*it will be according to how many div in the top this footer id*/
-    width:100%/*widht for div footer*/
-
+    /*width: 100%*/
+    width:94%/*widht for div footer*/
+        
 }
