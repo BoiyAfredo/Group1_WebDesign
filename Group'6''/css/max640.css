@@ -65,6 +65,9 @@ header/*section to give the title on the main page (on the home page)*/
 	color: white;
 	background: rgb(38,61,161);
 	background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(171,13,75,1) 78%, rgba(0,212,255,1) 100%);
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	 -webkit-box-shadow: inset 0 0 10px #000000;
+	 box-shadow:         inset 0 0 10px #000000;
 
 }
 
@@ -94,9 +97,9 @@ nav.menu ul/*section to adjust the size of the position of the menu bar*/
 	width: 80%;
 	margin:0%;
 	background: #1awbc9c;
-	-webkit-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
-	-moz-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
-	box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);*/
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
 }
 
 nav.menu ul li /*section to adjust the location of the menu bar position*/
@@ -141,7 +144,7 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 .sidebar .widget /*section to provide background color and other additions in additional content (in the sidebar)*/
 {
 	padding:4% 4% 14% 4%;
-	margin-left: 20%;
+	margin-left: 18%;
 	background:#fff;
 	border-bottom: 2% solid #fff;
 	transition: all 0.5s ease;
@@ -194,9 +197,9 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	margin:4% auto;
 	background: #fff;
 	border:10% solid #dedede;
-	-webkit-box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
-	-moz-box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
-	box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	 -webkit-box-shadow: inset 0 0 10px #000000;
+	 box-shadow:         inset 0 0 10px #000000;
 }
 
 .conteudo img /*to adjust the size of the image in the content section*/
