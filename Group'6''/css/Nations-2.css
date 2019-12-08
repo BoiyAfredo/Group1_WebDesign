@@ -24,7 +24,10 @@ a
 
 div#header
 {
-    background-color:#F3F2ED; /* give color for the background */
+    text-align: center; /* text align in header id will be left */
+	color: silver; /* silver color */
+    background: rgb(34,193,195); /* this make header background rbg */
+    background: linear-gradient(0deg, rgba(34,193,195,1) 33%, rgba(254,254,254,1) 100%); /* this make header background liner gradient rbg */
 }
 
 div#header h1 /* css for #header h1 */
