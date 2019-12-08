@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+
+		.wrap /*the part that is on the initial display (home) to determine the size of the width and margin(auto) for the home page*/
+		{
+			width: 100%;
+			margin:1em auto;
+		}
+
+	.mainmenubtn {
+	    background-color: red;
+	    color: white;
+	    border: none;
+	    cursor: pointer;
+	    padding:20px;
+	    margin-top:20px;
+	}
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
+	}
+
+	.dropdown-child {
+	    display: none;
+	    background-color: black;
+	    min-width: 200px;
+	}
+	.dropdown-child a {
+	    color: white;
+	    padding: 20px;
+	    text-decoration: none;
+	    display: block;
+	}
+
+	.dropdown-child a:hover {
+		background:#16a085;
+	}
+	.dropdown:hover .dropdown-child {
+	    display: block;
+	}
+
+
+body /*this is a part for all elements of the body*/
+{
+	background: #eee;
+	margin: 0em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+header/*section to give the title on the main page (on the home page)*/
+{
+	margin: 0%;
+	padding: 0%;
+	text-align: center;
+	color: white;
+	background: rgb(38,61,161);
+	background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(171,13,75,1) 78%, rgba(0,212,255,1) 100%);
+
+}
+
+header .judul/*section to provide the size of the h1 element in the header*/
+{
+	font-size: 3em;
+	margin: 0%;
+	padding: 1em;
+	font-family: 'Pacifico', cursive;
+}
+
+
+.wrap /*the part that is on the initial display (home) to determine the size of the width and margin(auto) for the home page*/
+{
+	width: 70%;
+	margin:1em auto;
+}
+
+nav.menu ul/*section to adjust the size of the position of the menu bar*/
+{
+  display:none;
+  overflow:hidden;
+	color: red;
+	list-style: none;
+	float:left;
+	padding: 0%;
+	width: 80%;
+	margin:0%;
+	background: #1awbc9c;
+	-webkit-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
+	-moz-box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);
+	box-shadow: 1% 1% 1% 0% rgba(204,204,204,0.55);*/
+}
+
+nav.menu ul li /*section to adjust the location of the menu bar position*/
+{
+	margin:0;
+	float:left;
+  display: none;
+}
+
+nav.menu ul
+{
+  display: none;
+}
+
+nav.menu ul a /*section to set the size of the writing on the menu bar*/
+{
+	padding:2em;
+	display: none;
+	font-weight:40em;
+	font-size: 90%;
+	color:fuchsia;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover /*section to underline the text decoration and at the same time give a background color on the menu bar*/
+{
+	text-decoration: underline;
+	background:#16a085;
+  display: none;
+}
+
+.sidebar to adjust the position and size of additional content
+{
+	position: absolute;
+	left: 80%;
+	top: 20em;
+	width:20%;
+}
+
+.sidebar .widget /*section to provide background color and other additions in additional content (in the sidebar)*/
+{
+	padding:4%;
+	margin:0%;
+	background:#fff;
+	border-bottom: 2% solid #fff;
+	transition: all 0.5s ease;
+}
+
+.sidebar .widget /*section to give color to the title in additional content (sidebar)*/
+{
+	border-bottom: 2% solid #3498db;
+}
+
+.sidebar .widget h2 /*section to set the size of the text in the title that is in additional content (sidebar) in the H2 element*/
+{
+	padding:0;
+	margin:0%;
+	color: rgb(38,61,161);
+  color: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(13,146,171,1) 73%, rgba(0,212,255,1) 100%);
+	font-size: 80%;
+	font-weight:800;
+	text-transform: uppercase;
+}
+
+.sidebar .widget p /*section to set the size of the writing that is in the article that is in the additional content section (sidebar) element p*/
+{
+	font-size: 80%;
+}
+
+
+.blog /*Adjust the position of the blog*/
+{
+	float:left;
+}
+
+.conteudo /*Set background colors,size and more in the content section*/
+{
+	width:80%;
+	padding:3%;
+	margin:4% auto;
+	background: #fff;
+	border:10% solid #dedede;
+	-webkit-box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
+	-moz-box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
+	box-shadow: 5% 5% 5% 0% rgba(204,204,204,0.35);
+}
+
+.conteudo img /*to adjust the size of the image in the content section*/
+{
+	min-width: 20%;
+	margin:0;
+	max-width: 100%;
+}
+
+.conteudo h1 /*to set the title of the article in the content*/
+{
+	padding:0;
+	margin: 5%;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+
+.conteudo p /*to set the limit of articles in the content*/
+{
+	margin: 0;
+}
+
+
+
+.post-info /*to set the location of the existing date in the content*/
+{
+	float: right;
+	font-size: 12px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.footer
+{
+	margin: 0%;
+	padding: 0%;
+	color: white;
+	position: relative;
+	top: 40em;
+	background: rgb(38,61,161);
+	background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(171,13,75,1) 78%, rgba(0,212,255,1) 100%);
+}
