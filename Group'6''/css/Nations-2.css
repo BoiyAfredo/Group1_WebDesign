@@ -67,7 +67,7 @@ div#footer p
 div#container
 {
     width:100%; /* container id width will be 100% */
-    margin:0 auto /* margin will be 0 */
+    margin:0 auto; /* margin will be 0 */
 }
 
 div#content
@@ -96,5 +96,8 @@ div#extra
 div#footer
 {
     clear:both; /* it will be according to how many div in the top this footer id */
+    background: #7FFFD4; /* give color for background */
+    padding: 5px 10px; /* padding in the footer  will be 5px and for padding bottom will be 10px */
+    height: 50px; /* footer id height will be 50px */
     width:100% /* footer id width will be 100% according to layer */
 }
