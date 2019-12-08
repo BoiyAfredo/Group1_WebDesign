@@ -53,19 +53,9 @@ div#navigation
     background:#F6F0E0; /* give color for the background */
 }
 
-div#navigation li
-{
-    margin-bottom:5px; /* will make bottom bit crowded into the top */
-}
-
 div#extra
 {
     background:#CCC8B3; /* give color for the background */
-}
-
-div#footer
-{
-    background:#BFBD93; /* give color for the background */
 }
 
 div#footer p
@@ -76,7 +66,7 @@ div#footer p
 
 div#container
 {
-    width:700px; /* container id width will be 700px */
+    width:100%; /* container id width will be 100% */
     margin:0 auto /* margin will be 0 */
 }
 
