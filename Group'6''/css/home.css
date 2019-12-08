@@ -63,6 +63,11 @@ header/*section to give the title on the main page (on the home page)*/
 
 }
 
+.wideimg
+{
+	width: 90%;
+}
+
 header .judul/*section to provide the size of the h1 element in the header*/
 {
 	font-size: 3em;
