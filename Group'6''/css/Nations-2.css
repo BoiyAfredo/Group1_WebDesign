@@ -73,7 +73,7 @@ div#container
 div#content
 {
     width: 800px; /* content id width will be 800px */
-    margin: auto; /*this is make content bit go to the right more */
+    margin: auto; /*this is make content to auto */
     background: #E0FFFF; /* give color for background */   
 }
 
@@ -87,8 +87,9 @@ div#navigation
 
 div#extra
 {
-    float:right; /* will make navigation position go to the right */
-    clear:right; /* it will be according to how many div in the top this extra id */
+    background: #20B2AA; /* give color for background */
+    float:left; /* will make navigation position go to the left */
+    clear:left; /* This is make the Element clear on the left */
     width:200px /* extra id width will be 200px */
 }
 
