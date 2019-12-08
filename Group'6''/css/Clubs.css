@@ -5,13 +5,9 @@ html,body
 }
 body
 {
-    background-color: blue;
-    font: 80% arial,sans-serif; /* this is setting for font in the body, if arial can't use so the sans-serif will be use for this html */
+    background-color: transparent;
+    font: 79% arial,sans-serif; /* this is setting for font in the body, if arial can't use so the sans-serif will be use for this html */
     text-align:center /* this will make everyhing in the body */
-}
-h5
-{
-    font: 20%;
 }
 p
 {
@@ -36,7 +32,7 @@ div#header h1
 {
     height:80px;line-height:80px;margin:0;padding-left:10px;
 }
-
+div#container
 {
     text-align:left /* text align in container id will be left */
 }
@@ -53,7 +49,7 @@ div#navigation
 
 div#navigation ul
 {
-    margin:15px 0; /* margin will be 15 px */
+    margin:5px; /* margin will be 15 px */
     padding:0; /* give 0 padding in every navigation */
     list-style-type:none; /* make the list style */
 }
@@ -66,6 +62,8 @@ div#navigation li
 div#extra
 {
     background:#CCC8B3; /* give color for the background */
+    padding: 0;
+    margin: 0;
 }
 
 div#footer
@@ -91,18 +89,22 @@ div#content
     width:500px; /* content id width will be 500px */
     background-color: #ffffe6;/*this one give #ffffe6 color for your content bar*/
 }
+div#content h4
+{
+    height: 10px;
+}
 
 div#navigation
 {
     float:right; /* will make navigation position go to the right */
-    width:200px /* navigation id width will be 200px */
+    width:150px /* navigation id width will be 200px */
 }
 
 div#extra
 {
     float:left; /* will make navigation position go to the right */
     width:150px;  /* extra id width will be 200px */
-    margin-left:-700px  /* extra id margin-left will be -700px */
+    margin-left:-7px  /* extra id margin-left will be -700px */
 }
 div#footer
 {
