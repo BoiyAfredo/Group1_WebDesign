@@ -24,15 +24,18 @@ a
 
 div#header
 {
-    background-color:#F3F2ED; /* give color for the background */
+    text-align: center; /* text align in header id will be left */
+	color: silver; /* silver color */
+    background: rgb(34,193,195); /* this make header background rbg */
+    background: linear-gradient(0deg, rgba(34,193,195,1) 33%, rgba(254,254,254,1) 100%); /* this make header background liner gradient rbg */
 }
 
-div#header h1 /* css for #header h1 */
+div#header p /* css for #header p */
 {
-    height:80px; /* will make h1 have height 80px */
-    line-height:80px; /* distance for every new paragraph */
-    margin:0; /* margin will be zero in this id */
-    padding-left:10px; /* give distance bit to right */
+    font-size: 80px; /* this make your header p font size 80 px */
+    font-family: sweets;  /* this make your header p font family sweets */
+    line-height:150px; /*Distance for every new paragraph*/
+	
 }
 
 div#container
@@ -48,13 +51,6 @@ div#content p
 div#navigation
 {
     background:#F6F0E0; /* give color for the background */
-}
-
-div#navigation ul
-{
-    margin:15px 0; /* margin will be 15 px */
-    padding:0; /* give 0 padding in every navigation */
-    list-style-type:none; /* make the list style */
 }
 
 div#navigation li
