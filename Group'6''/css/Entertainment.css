@@ -1,4 +1,4 @@
-html,body 
+html,body
 /*margin and padding will become like default mode*/
 {
     margin:0;
@@ -7,7 +7,7 @@ html,body
 }
 
 body{
-    
+
     background: url(piccity.jpg);
     font: 76% arial,sans-serif; /*this is setting for font in the body, if arial can't use so the sans-serif will be use for this html*/
     text-align:center; /*this will make everyhing in the body */
@@ -104,7 +104,7 @@ div#container{
 div#wrapper{
     float:left;/*wrapper postion will be left side*/
     width:100%;/*widht 100% according to layer*/
-    
+
 }
 
 div#content{
@@ -137,5 +137,5 @@ div#extra{
 div#footer{
     clear:left;/*it will be according to how many div in the top this footer id*/
     width:94%/*widht for div footer*/
-        
+
 }
