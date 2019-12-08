@@ -5,8 +5,13 @@ html,body
 }
 body
 {
+    background-color: blue;
     font: 80% arial,sans-serif; /* this is setting for font in the body, if arial can't use so the sans-serif will be use for this html */
     text-align:center /* this will make everyhing in the body */
+}
+h5
+{
+    font: 20%;
 }
 p
 {
