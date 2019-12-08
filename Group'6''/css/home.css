@@ -140,12 +140,13 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 	left: 80%;
 	top: 20em;
 	width:20%;
+	height: 30%
 
 }
 
 .sidebar .widget /*section to provide background color and other additions in additional content (in the sidebar)*/
 {
-	padding:4%;
+	padding:0% 4% 0% 4%;
 	margin-left: 20%;
 	background:#fff;
 	border-bottom: 2% solid #fff;
@@ -159,6 +160,7 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 
 .sidebar .widget h2 /*section to set the size of the text in the title that is in additional content (sidebar) in the H2 element*/
 {
+	display: inline;
 	padding:0;
 	margin:0%;
 	color: rgb(38,61,161);
@@ -171,8 +173,21 @@ nav.menu ul a:hover /*section to underline the text decoration and at the same t
 .sidebar .widget p /*section to set the size of the writing that is in the article that is in the additional content section (sidebar) element p*/
 {
 	font-size: 80%;
+	padding: 0;
+	margin: 1% 0 0 0;
 }
 
+.sidebar .widget img
+{
+	width: 50%;
+	height: 9em;
+	float: left;
+	padding: 0em;
+	margin-right: 1em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+
+}
 
 .blog /*Adjust the position of the blog*/
 {
